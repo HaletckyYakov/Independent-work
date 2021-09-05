@@ -48,7 +48,7 @@ void main()
 		}
 	} while (key != Escape);//while (key != 27);	//выход по коду клавиши escape, если создать define Escape, 
 							//то можно написать название клавиши вместо кода
-#endif // SHOOTER
+#endif // SHOOTER 
 	
 
 }

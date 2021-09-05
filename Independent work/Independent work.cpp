@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<conio.h>
 using namespace std;
 //#define CHARACTER_OUTPUT
@@ -30,25 +30,25 @@ void main()
 		key = _getch();
 		switch (key)
 		{
-		case UpArrow:	cout << "Âïåðåä" << endl; break;
-		case 'W':		cout << "Âïåðåä" << endl; break;
-		case 'w':		cout << "Âïåðåä" << endl; break;
-		case DownArrow: cout << "Íàçàä" << endl; break;
-		case 'S':		cout << "Íàçàä" << endl; break;
-		case 's':		cout << "Íàçàä" << endl; break;
-		case LeftArrow:	cout << "Âëåâî" << endl; break;
-		case 'A':		cout << "Âëåâî" << endl; break;
-		case 'a':		cout << "Âëåâî" << endl; break;
-		case RightArrow:cout << "Âïðàâî" << endl; break;
-		case 'D':		cout << "Âïðàâî" << endl; break;
-		case 'd':		cout << "Âïðàâî" << endl; break;
-		case ' ':		cout << "Ïðûæîê" << endl; break;
-		case 13:		cout << "Îãîíü" << endl; break;
-		default: if  (key != -32)		cout << "Error" << endl; //(key != -32) óáèðàåò îøèáêó âòîðîãî àñêè êîäà 
+		case UpArrow:	cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl; break;
+		case 'W':		cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl; break;
+		case 'w':		cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl; break;
+		case DownArrow: cout << "ÐÐ°Ð·Ð°Ð´" << endl; break;
+		case 'S':		cout << "ÐÐ°Ð·Ð°Ð´" << endl; break;
+		case 's':		cout << "ÐÐ°Ð·Ð°Ð´" << endl; break;
+		case LeftArrow:	cout << "Ð’Ð»ÐµÐ²Ð¾" << endl; break;
+		case 'A':		cout << "Ð’Ð»ÐµÐ²Ð¾" << endl; break;
+		case 'a':		cout << "Ð’Ð»ÐµÐ²Ð¾" << endl; break;
+		case RightArrow:cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl; break;
+		case 'D':		cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl; break;
+		case 'd':		cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl; break;
+		case ' ':		cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl; break;
+		case 13:		cout << "ÐžÐ³Ð¾Ð½ÑŒ" << endl; break;
+		default: if  (key != -32)		cout << "Error" << endl; //(key != -32) ÑƒÐ±Ð¸Ñ€Ð°ÐµÑ‚ Ð¾ÑˆÐ¸Ð±ÐºÑƒ Ð²Ñ‚Ð¾Ñ€Ð¾Ð³Ð¾ Ð°ÑÐºÐ¸ ÐºÐ¾Ð´Ð° 
 		}
-	} while (key != Escape);//while (key != 27);	//âûõîä ïî êîäó êëàâèøè escape, åñëè ñîçäàòü define Escape, 
-							//òî ìîæíî íàïèñàòü íàçâàíèå êëàâèøè âìåñòî êîäà
+	} while (key != Escape);//while (key != 27);	//Ð²Ñ‹Ñ…Ð¾Ð´ Ð¿Ð¾ ÐºÐ¾Ð´Ñƒ ÐºÐ»Ð°Ð²Ð¸ÑˆÐ¸ escape, ÐµÑÐ»Ð¸ ÑÐ¾Ð·Ð´Ð°Ñ‚ÑŒ define Escape, 
+							//Ñ‚Ð¾ Ð¼Ð¾Ð¶Ð½Ð¾ Ð½Ð°Ð¿Ð¸ÑÐ°Ñ‚ÑŒ Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ðµ ÐºÐ»Ð°Ð²Ð¸ÑˆÐ¸ Ð²Ð¼ÐµÑÑ‚Ð¾ ÐºÐ¾Ð´Ð°
 #endif // SHOOTER 
-	// ñîçäàþ êîììèò
+	// ÑÐ¾Ð·Ð´Ð°ÑŽ ÐºÐ¾Ð¼Ð¼Ð¸Ñ‚
 
 }
